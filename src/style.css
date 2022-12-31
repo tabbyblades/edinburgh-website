@@ -3,8 +3,14 @@
     max-width: 960px; 
 }
 
+footer {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
+    background: #272044;
 }
 
 h1{
@@ -86,6 +92,13 @@ footer li{
     margin: 0;
     padding: 0;
 }
+
+.grid {
+ display:grid;
+ grid-template-columns: 1fr 2fr 2fr;
+ 
+}
+
 @media (max-width: 960px){
     h1{
        font-size: 48px; 
