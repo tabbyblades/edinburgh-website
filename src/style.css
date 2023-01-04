@@ -30,6 +30,20 @@ main h3{
     margin: 0;
 }
 
+main h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #272044;
+ }
+
+ main h5{
+    font-weight: 700;
+    font-size: 13px;
+    line-height:1.5;
+    color: #272044;
+ }
+
 main p {
     font-weight: 400;
     font-size: 16px;
@@ -147,12 +161,29 @@ grid-template-columns: 1fr 1fr;
 grid-template-columns: 1fr 1fr 1fr;
  }
 
+ .card{
+    background: white;
+ }
+
  .responsive{
 width: 100%;
  }
 
 .text-center{
     text-align: center;
+}
+
+.grid-btn{
+    display: block;
+    color: white;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 3px;
+padding: 16px;
+text-decoration: none;
+background-color: #272044;
 }
 @media (max-width: 960px){
      header h1{
