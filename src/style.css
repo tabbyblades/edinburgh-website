@@ -143,8 +143,12 @@ grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 2fr 2fr;
  }
 
+ .grid-3-equal-colums{
+grid-template-columns: 1fr 1fr 1fr;
+ }
+
  .responsive{
-max-width: 100%;
+width: 100%;
  }
 
 .text-center{
