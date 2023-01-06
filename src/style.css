@@ -224,4 +224,12 @@ background-color: #272044;
     section{
         padding: 60px;
     }
+
+    .responsive{
+        display: none;
+    }
+
+    .embed{
+        aspect-ratio: 16/9;
+    }
 }
